@@ -113,3 +113,59 @@ nav a:hover {
   justify-content: space-between;
 }
 
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 3vw;
+  line-height: 1.1;
+}
+
+.page-section > div {
+  flex: 0 0 77%;
+}
+
+.page-section p{
+  margin-bottom: 20px;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item:first-child{
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+
+
+
